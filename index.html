@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulación del DOM básica - Curso práctico de JavaScript</title>
+</head>
+<body>
+    <h1 class="verde">Manipulación del DOM básica</h1>
+
+    <p>Esto es un párrafo</p>
+    <p class="parrafito">Esto es un párrafo con clase</p>
+    <input id="inputParrafo" placeholder="Escribe algo aquí" onchange="informarCambio()">
+    <p id="pid">Esto es un párrafo con ID</p>
+
+    <input id="calc1" placeholder="Escribe algo aquí">
+    <input id="calc2" placeholder="Escribe algo aquí">
+    <button id="btnCalcular" onclick="btnOnClick()">Calcular</button>
+
+    <p id="result"></p>
+
+    <button id="btnLimpiar">Limpiar</button>
+
+    <script src="./script.js"></script>
+</body>
+</html>
